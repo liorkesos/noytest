@@ -10,4 +10,6 @@ module.exports.routes = {
   'post /login': 'UserController.login',
   'post /signup': 'UserController.signup',
   '/logout': 'UserController.logout',
+  '/vid/add': 'VideosController.create',
+  '/vid/list': 'VideosController.find'
 };
